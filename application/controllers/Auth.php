@@ -13,7 +13,7 @@ class Auth extends CI_Controller
 
     public function index()
     {
-        if (!empty($_REQUEST)) {
+        if ($this->form_validation->run() == TRUE) {
             $this->_login();
         } else {
             $this->load->view('auth');
