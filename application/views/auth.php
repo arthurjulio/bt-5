@@ -21,7 +21,7 @@
     <!-- Navbar -->
     <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="pt-lg-5 pt-4" href="#" style="margin: auto">
+            <a class="pt-lg-5 pt-4 text-center" href="#" style="margin: auto">
                 <h1 class="display-2 mb-0"><strong>My Absent Apps.</strong></h1>
                 <h3 class="mt--1">Hello, Please Login.</h3>
                 <!-- <img src="<?= base_url() ?>/assets/img/brand/logo.png" style="z-index: 0; height: 4rem;" class="img-fluid"> -->
@@ -41,7 +41,7 @@
         <!-- Page content -->
         <div class="container mt--7 pb-5">
             <div class="row justify-content-center">
-                <div class="col-lg-5 col-md-7 col-11">
+                <div class="col-lg-5 col-md-12 col-11">
                     <div class="card border-0 mb-0" style="box-shadow: 0 0 0rem 0 rgba(4, 6, 8, 0.18);">
                         <div class="card-body px-lg-5 py-lg-5">
                             <div class="text-center text-muted py-4 mb-4">
