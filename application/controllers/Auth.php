@@ -5,7 +5,7 @@ class Auth extends CI_Controller
 {
     public function index()
     {
-        if ($_REQUEST == TRUE) {
+        if (isset($_REQUEST)) {
             $this->_login();
         } else {
             $this->load->view('auth');
